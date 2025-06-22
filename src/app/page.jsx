@@ -72,7 +72,7 @@ const HeaderCarousel = () => {
         <motion.div initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }} className="md:mx-10 my-5 md:my-14 h-[400px] gap-16 flex flex-col lg:flex-row items-center justify-between">
-            <div className="w-[80%] lg:w-[60%] flex flex-col gap-10">
+            <div className="w-[80%] lg:w-[60%]  flex flex-col gap-10">
                 <div className="flex flex-col gap-4">
                     <motion.h1 initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -81,11 +81,12 @@ const HeaderCarousel = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 0.8 }} className="text-[#377A00] text-xl">                        Rejoignez une révolution du bien-être grâce à des solutions naturelles qui transforment la santé et ouvrent des perspectives uniques pour votre avenir financier.</motion.p>
                 </div>
-                <div className="flex gap-7"> <a
+                <div className="flex flex-col sm:flex-row gap-7"> 
+                    <a
                     href="https://wa.me/+24107849012"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex gap-2 text-center text-white bg-[#5e9432] hover:bg-[#5e9432]/80 shadow-xl font-medium rounded-3xl px-3 py-2 transition-all duration-300 animate-shimmer bg-[linear-gradient(110deg,transparent,45%,#84cf46,55%,transparent)] bg-[length:200%_100%] duration-400 ease-out overflow-hidden group"
+                    className="flex gap-2 justify-center items-center text-white bg-[#5e9432] hover:bg-[#5e9432]/80 shadow-xl font-medium rounded-3xl px-3 py-2 transition-all duration-300 animate-shimmer bg-[linear-gradient(110deg,transparent,45%,#84cf46,55%,transparent)] bg-[length:200%_100%] duration-400 ease-out overflow-hidden group"
                 >
                     Contactez-nous <Icon icon="stash:social-whatsapp-duotone" width="24" height="24" style={{ color: "#ffff" }} />
                 </a>
@@ -792,7 +793,7 @@ const Contacts = () => {
                 />
             </svg>
             <p className="text-blue-700 text-center font-regular text-[17px] pt-[5px]">
-                <a href="tel:+241062104650">+ 241 062 10 46 50</a>
+                <a href="tel:+24177849012">+ 241 077 84 90 12</a>
             </p>
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -807,7 +808,7 @@ const Contacts = () => {
                 </g>
             </svg>
             <p className="text-blue-600 text-center font-regular text-[17px] pt-[5px] pb-[50px]">
-                <a href="mailto:phytoscience@gmail.com">phytoscience@gmail.com</a>
+                <a href="mailto:phytosciencegabon@gmail.com">phytosciencegabon@gmail.com</a>
             </p>
             <div className="pb-[50px]">
                 <p className="text-black text-center font-medium text-[20px] pt-[5px] pb-[10px]">
