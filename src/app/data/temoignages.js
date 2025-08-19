@@ -72,16 +72,16 @@ const data = [
         ],
         video: "",
     },
-    {
-        id: 7,
-        titre: "Début de solution chez un cas drépanositaire SS",
-        image: "/assets/temoignages/temoignage7.0.jpg",
-        photos: [
-            "/assets/temoignages/temoignage7.0.jpg",
-            "/assets/temoignages/temoignage7.1.jpg",
-        ],
-        video: "",
-    },
+    // {
+    //     id: 7,
+    //     titre: "Début de solution chez un cas drépanositaire SS",
+    //     image: "/assets/temoignages/temoignage7.0.jpg",
+    //     photos: [
+    //         "/assets/temoignages/temoignage7.0.jpg",
+    //         "/assets/temoignages/temoignage7.1.jpg",
+    //     ],
+    //     video: "",
+    // },
     {
         id: 8,
         titre: "Cancer du sein métastasé stade 4",
